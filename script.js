@@ -71,7 +71,7 @@ voice.style.display="none"
         window.open("https://www.flipkart.com/")
     }
     else if (message.includes("open amazon")){
-        speak("opening flipkart...")
+        speak("opening amazon...")
         window.open("https://www.amazon.in/ref=nav_logo")
     }
     else if(message.includes("open calculator")){
