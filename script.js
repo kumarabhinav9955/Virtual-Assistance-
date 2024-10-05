@@ -66,9 +66,13 @@ voice.style.display="none"
         speak("opening instagram...")
         window.open("https://instagram.com/","_blank")
     }
-        else if (message.includes("open flipkart)){
+        else if (message.includes("open flipkart")){
         speak("opening flipkart...")
         window.open("https://www.flipkart.com/")
+    }
+    else if (message.includes("open amazon")){
+        speak("opening flipkart...")
+        window.open("https://www.amazon.in/ref=nav_logo")
     }
     else if(message.includes("open calculator")){
         speak("opening calculator..")
