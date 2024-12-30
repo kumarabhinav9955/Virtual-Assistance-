@@ -47,8 +47,8 @@ voice.style.display="none"
         speak("hello ,How can i help you?")
     }
     else if(message.includes("who are you")){
-        speak("i am virtual assistant ,created by Kumar Abhinav,I have given his contact details please check it")
-        window.open("https://www.linkedin.com/in/kumar-abhinav-a32815179/","_blank")
+        speak("i am virtual assistant ,created by Kumar Abhinav.")
+        // window.open("https://www.linkedin.com/in/kumar-abhinav-a32815179/","_blank")
     }
     else if(message.includes("open youtube")){
         speak("opening youtube...")
